@@ -14,46 +14,46 @@
         android:theme="@style/Theme.Mindm"
         tools:targetApi="31">
         <activity
-            android:name=".ThirdLvlActivity"
+            android:name=".activities.lvls.ThirdLvlActivity"
             android:exported="false" />
         <activity
-            android:name=".TenthLvlActivity"
+            android:name=".activities.lvls.TenthLvlActivity"
             android:exported="false" />
         <activity
-            android:name=".SixthLvlActivity"
+            android:name=".activities.lvls.SixthLvlActivity"
             android:exported="false" />
         <activity
-            android:name=".SeventhLvlActivity"
+            android:name=".activities.lvls.SeventhLvlActivity"
             android:exported="false" />
         <activity
-            android:name=".SecondLvlActivity"
+            android:name=".activities.lvls.SecondLvlActivity"
             android:exported="false" />
         <activity
-            android:name=".NinthLvlActivity"
+            android:name=".activities.lvls.NinthLvlActivity"
             android:exported="false" />
         <activity
-            android:name=".FourthLvlActivity"
+            android:name=".activities.lvls.FourthLvlActivity"
             android:exported="false" />
         <activity
-            android:name=".FirstLvlActivity"
+            android:name=".activities.lvls.FirstLvlActivity"
             android:exported="false" />
         <activity
-            android:name=".FifthLvlActivity"
+            android:name=".activities.lvls.FifthLvlActivity"
             android:exported="false" />
         <activity
-            android:name=".EighthLvlActivity"
+            android:name=".activities.lvls.EighthLvlActivity"
             android:exported="false" />
         <activity
-            android:name=".SplashActivity"
+            android:name=".activities.SplashActivity"
             android:exported="false" />
         <activity
-            android:name=".ShopActivity"
+            android:name=".activities.ShopActivity"
             android:exported="false" />
         <activity
-            android:name=".SettingsActivity"
+            android:name=".activities.SettingsActivity"
             android:exported="false" />
         <activity
-            android:name=".LevelsActivity"
+            android:name=".activities.LevelsActivity"
             android:exported="false" />
         <activity
             android:name=".activities.MainActivity"
