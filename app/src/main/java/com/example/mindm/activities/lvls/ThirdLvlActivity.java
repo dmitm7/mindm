@@ -29,6 +29,8 @@ public class ThirdLvlActivity extends AppCompatActivity implements GestureDetect
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        if(getSupportActionBar()!=null)
+            this.getSupportActionBar().hide();
         setContentView(R.layout.activity_third_lvl);
         set();
         this.gestureDetector = new GestureDetector(ThirdLvlActivity.this, this);
@@ -86,7 +88,7 @@ public class ThirdLvlActivity extends AppCompatActivity implements GestureDetect
                     }
                 }
                 int test[] = new int[2];
-                int xy[] = {699, 1042};
+                int xy[] = {699, 1107};
                 player.getLocationOnScreen(test);
                 System.out.println(Arrays.toString(test));
                 if (Arrays.equals(test, xy)) {
