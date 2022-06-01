@@ -86,7 +86,7 @@ public class FourthLvlActivity extends AppCompatActivity implements GestureDetec
                     }
                 }
                 int test[] = new int[2];
-                int xy[] = {446, 1404};
+                int xy[] = {145, 1079};
                 player.getLocationOnScreen(test);
                 System.out.println(Arrays.toString(test));
                 if (Arrays.equals(test, xy)) {

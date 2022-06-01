@@ -148,23 +148,6 @@
                 android:text="10"
                 android:textSize="34sp" />
 
-            <Button
-                android:id="@+id/lvl11"
-                android:layout_width="72dp"
-                android:layout_height="80dp"
-                android:layout_marginEnd="15dp"
-                android:fontFamily="@font/kanit_medium"
-                android:text="11"
-                android:textSize="34sp" />
-
-            <Button
-                android:id="@+id/lvl12"
-                android:layout_width="72dp"
-                android:layout_height="80dp"
-                android:fontFamily="@font/kanit_medium"
-                android:text="12"
-                android:textSize="34sp" />
-
         </TableRow>
 
     </TableLayout>

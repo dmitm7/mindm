@@ -48,25 +48,25 @@
 
     <ImageView
         android:id="@+id/player6"
-        android:layout_width="65dp"
-        android:layout_height="65dp"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.187"
+        app:layout_constraintHorizontal_bias="0.179"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499"
+        app:layout_constraintVertical_bias="0.321"
         app:srcCompat="@drawable/red" />
 
     <ImageView
         android:id="@+id/finish6"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.199"
+        app:layout_constraintHorizontal_bias="0.852"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.664"
+        app:layout_constraintVertical_bias="0.666"
         app:srcCompat="@drawable/finish" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -86,7 +86,7 @@ public class NinthLvlActivity extends AppCompatActivity implements GestureDetect
                     }
                 }
                 int test[] = new int[2];
-                int xy[] = {446, 1404};
+                int xy[] = {343, 964};
                 player.getLocationOnScreen(test);
                 System.out.println(Arrays.toString(test));
                 if (Arrays.equals(test, xy)) {
